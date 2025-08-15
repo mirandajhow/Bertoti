@@ -4,48 +4,24 @@
 ---
 
 ### 🇺🇸 Primeiro Trecho — Original em Inglês
-> What precisely do we mean by software engineering? What distinguishes “software engineering” from “programming” or “computer science”? And why would Google have a unique perspective to add to the corpus of previous software engineering literature written over the past 50 years?  
+> What precisely do we mean by software engineering? What distinguishes “software engineering” from “programming” or “computer science”?  
+> And why would Google have a unique perspective to add to the corpus of previous software engineering literature written over the past 50 years?  
 >  
-> The terms “programming” and “software engineering” have been used interchangeably for quite some time in our industry, although each term has a different emphasis and different implications. University students tend to study computer science and get jobs writing code as “programmers.”  
->  
-> “Software engineering,” however, sounds more serious, as if it implies the application of some theoretical knowledge to build something real and precise. Mechanical engineers, civil engineers, aeronautical engineers, and those in other engineering disciplines all practice engineering. They all work in the real world and use the application of their theoretical knowledge to create something real. Software engineers also create “something real,” though it is less tangible than the things other engineers create.  
->  
-> Unlike those more established engineering professions, current software engineering theory or practice is not nearly as rigorous. Aeronautical engineers must follow rigid guidelines and practices, because errors in their calculations can cause real damage; programming, on the whole, has traditionally not followed such rigorous practices. But, as software becomes more integrated into our lives, we must adopt and rely on more rigorous engineering methods. We hope this book helps others see a path toward more reliable software practices.
+> The terms “programming” and “software engineering” have been used interchangeably...
 
 ---
 
 ### 🇧🇷 Primeiro Trecho — Tradução em Português
-> O que exatamente queremos dizer com engenharia de software? O que distingue “engenharia de software” de “programação” ou “ciência da computação”? E por que o Google teria uma perspectiva única a acrescentar ao conjunto de publicações sobre engenharia de software escritas nos últimos 50 anos?  
->  
-> Os termos “programação” e “engenharia de software” têm sido usados de forma intercambiável há bastante tempo em nossa indústria, embora cada termo tenha uma ênfase e implicações diferentes. Estudantes universitários tendem a estudar ciência da computação e conseguir empregos escrevendo código como “programadores”.  
->  
-> “Engenharia de software”, no entanto, soa mais séria, como se implicasse a aplicação de algum conhecimento teórico para construir algo real e preciso. Engenheiros mecânicos, civis, aeronáuticos e de outras disciplinas de engenharia praticam engenharia. Todos trabalham no mundo real e aplicam seu conhecimento teórico para criar algo concreto. Engenheiros de software também criam “algo real”, embora seja menos tangível do que as coisas que outros engenheiros criam.  
->  
-> Diferente dessas profissões de engenharia mais consolidadas, a teoria ou prática atual da engenharia de software não é nem de longe tão rigorosa. Engenheiros aeronáuticos devem seguir diretrizes e práticas rígidas, pois erros em seus cálculos podem causar danos reais; a programação, de modo geral, tradicionalmente não seguiu práticas tão rigorosas. Mas, à medida que o software se torna mais integrado às nossas vidas, devemos adotar e confiar em métodos de engenharia mais rigorosos. Esperamos que este livro ajude outros a enxergar um caminho em direção a práticas de software mais confiáveis.
+> O que exatamente queremos dizer com engenharia de software? O que distingue “engenharia de software” de “programação” ou “ciência da computação”?  
+> E por que o Google teria uma perspectiva única...
 
 ---
 
 ### 🇺🇸 Segundo Trecho — Original em Inglês
-> **Programming Over Time** — We propose that “software engineering” encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time. What practices can a software organization introduce that will best keep its code valuable over the long term? How can engineers make a codebase more sustainable and the software engineering discipline itself more rigorous? We don’t have fundamental answers to these questions, but we hope that Google’s collective experience over the past two decades illuminates possible paths toward finding those answers.  
->  
-> One key insight we share in this book is that software engineering can be thought of as “programming integrated over time.” What practices can we introduce to our code to make it sustainable—able to react to necessary change—over its life cycle, from conception to introduction to maintenance to deprecation?  
->  
-> The book emphasizes three fundamental principles that we feel software organizations should keep in mind when designing, architecting, and writing their code:  
-> - **Time and Change** — How code will need to adapt over the length of its life  
-> - **Scale and Growth** — How an organization will need to adapt as it evolves  
-> - **Trade-offs and Costs** — How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth
+> **Programming Over Time** — We propose that “software engineering” encompasses not just the act of writing code...
 
 ---
 
 ### 🇧🇷 Segundo Trecho — Tradução em Português
-> **Programação ao longo do tempo** — Propomos que “engenharia de software” abrange não apenas o ato de escrever código, mas também todas as ferramentas e processos que uma organização utiliza para construir e manter esse código ao longo do tempo. Quais práticas uma organização de software pode adotar para manter seu código valioso a longo prazo? Como os engenheiros podem tornar uma base de código mais sustentável e a própria disciplina da engenharia de software mais rigorosa? Não temos respostas definitivas para essas perguntas, mas esperamos que a experiência coletiva do Google nas últimas duas décadas ilumine possíveis caminhos para encontrá-las.  
->  
-> Um insight importante que compartilhamos neste livro é que a engenharia de software pode ser vista como “programação integrada ao longo do tempo”. Que práticas podemos introduzir em nosso código para torná-lo sustentável — capaz de reagir a mudanças necessárias — durante todo o seu ciclo de vida, desde a concepção até a introdução, manutenção e descontinuação?  
->  
-> O livro enfatiza três princípios fundamentais que acreditamos que organizações de software devem ter em mente ao projetar, arquitetar e escrever seu código:  
-> - **Tempo e Mudança** — Como o código precisará se adaptar ao longo de sua vida  
-> - **Escala e Crescimento** — Como uma organização precisará se adaptar à medida que evolui  
-> - **Compensações e Custos** — Como uma organização toma decisões, com base nas lições de Tempo e Mudança e Escala e Crescimento  
-
----
+> **Programação ao longo do tempo** — Propomos que “engenharia de software” abrange não apenas o ato de escrever código...
 </details>
