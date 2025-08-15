@@ -1,7 +1,7 @@
 <details>
-<summary><strong>Trechos do Livro</strong></summary>
+<summary><strong> 📖 Trecho do Livro Software Engineering at Google, Oreilly </strong></summary>
   
-### Primeiro Trecho
+### 📔 Primeiro Trecho
 
   What precisely do we mean by software engineering? What distinguishes “software engineering” from “programming” or “computer science”? And why would Google have a unique perspective to add to the corpus of previous software engineering literature written over the past 50 years?
  
@@ -11,7 +11,16 @@ The terms “programming” and “software engineering” have been used interc
  
 Unlike those more established engineering professions, current software engineering theory or practice is not nearly as rigorous. Aeronautical engineers must follow rigid guidelines and practices, because errors in their calculations can cause real damage; programming, on the whole, has traditionally not followed such rigorous practices. But, as software becomes more integrated into our lives, we must adopt and rely on more rigorous engineering methods. We hope this book helps others see a path toward more reliable software practices.
 
-### Segundo Trecho
+## Tradução 
+O que exatamente queremos dizer com engenharia de software? O que diferencia “engenharia de software” de “programação” ou “ciência da computação”? E por que o Google teria uma perspectiva única para acrescentar ao corpo de literatura sobre engenharia de software escrito nos últimos 50 anos?
+
+Os termos “programação” e “engenharia de software” têm sido usados de forma intercambiável há bastante tempo em nossa indústria, embora cada termo tenha ênfases e implicações diferentes. Estudantes universitários tendem a estudar ciência da computação e conseguir empregos escrevendo código como “programadores”.
+
+“Engenharia de software”, no entanto, soa mais sério, como se implicasse a aplicação de algum conhecimento teórico para construir algo real e preciso. Engenheiros mecânicos, civis, aeronáuticos e aqueles de outras disciplinas de engenharia praticam engenharia. Todos eles trabalham no mundo real e aplicam seu conhecimento teórico para criar algo concreto. Engenheiros de software também criam “algo real”, embora seja menos tangível do que as coisas que outros engenheiros criam.
+
+Diferentemente dessas profissões de engenharia mais estabelecidas, a teoria ou prática atual da engenharia de software não é tão rigorosa. Engenheiros aeronáuticos devem seguir diretrizes e práticas rígidas, porque erros em seus cálculos podem causar danos reais; a programação, no geral, tradicionalmente não seguiu práticas tão rigorosas. Mas, à medida que o software se torna mais integrado às nossas vidas, devemos adotar e depender de métodos de engenharia mais rigorosos. Esperamos que este livro ajude outros a enxergar um caminho para práticas de software mais confiáveis.
+
+### 📔 Segundo Trecho
 
 Programming Over Time
 We propose that “software engineering” encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time. What practices can a software organization introduce that will best keep its code valuable over the long term? How can engineers make a codebase more sustainable and the software engineering discipline itself more rigorous? We don’t have fundamental answers to these questions, but we hope that Google’s collective experience over the past two decades illuminates possible paths toward finding those answers.
@@ -28,112 +37,82 @@ How an organization will need to adapt as it evolves
  
 Trade-offs and Costs
 How an organization makes decisions, based on the lessons of Time and Change and Scale and Growth
+
+## Tradução 
+
+Programação ao Longo do Tempo
+Propomos que “engenharia de software” engloba não apenas o ato de escrever código, mas também todas as ferramentas e processos que uma organização utiliza para construir e manter esse código ao longo do tempo. Que práticas uma organização de software pode adotar para manter seu código valioso a longo prazo? Como os engenheiros podem tornar uma base de código mais sustentável e a própria disciplina de engenharia de software mais rigorosa? Não temos respostas fundamentais para essas questões, mas esperamos que a experiência coletiva do Google ao longo das últimas duas décadas ilumine caminhos possíveis para encontrá-las.
+
+Um insight chave que compartilhamos neste livro é que a engenharia de software pode ser vista como “programação integrada ao longo do tempo.” Que práticas podemos introduzir em nosso código para torná-lo sustentável—capaz de reagir a mudanças necessárias—ao longo de seu ciclo de vida, desde a concepção até a introdução, manutenção e descontinuação?
+
+O livro enfatiza três princípios fundamentais que acreditamos que as organizações de software devem ter em mente ao projetar, arquitetar e escrever seu código:
+
+Tempo e Mudança
+Como o código precisará se adaptar ao longo de sua vida
+
+Escala e Crescimento
+Como uma organização precisará se adaptar à medida que evolui
+
+Compensações e Custos
+Como uma organização toma decisões, com base nas lições de Tempo e Mudança e Escala e Crescimento
 </details>
 <details>
-<summary><strong>Atividade 1</strong></summary>
+<summary><strong> ✅ Atividade 1</strong></summary>
 
-### Comentário do primeiro trecho
+### 📄 Comentário do primeiro trecho
 
-No primeiro trecho do livro *Software Engineering at Google*, os autores falam sobre algo que muitos confundem: será que programar é o mesmo que ser engenheiro de software? Eles explicam que, apesar das palavras às vezes parecerem iguais, elas têm significados e impactos diferentes.
+Software engineering (engenharia de software) não é a mesma coisa que programação ou ciência da computação. Programação é só escrever código, e estudantes de ciência da computação normalmente começam a trabalhar como programadores. Já engenharia de software é mais séria: envolve usar conhecimentos teóricos para criar algo real e funcional.
 
-Quando falamos em "programar", normalmente estamos pensando em escrever código — e é isso que aprendemos nos cursos de Ciência da Computação. Já "engenharia de software" soa mais técnico, mais sério, e com razão: é como aplicar teoria e boas práticas para construir algo real e confiável, mesmo que não seja algo físico como uma ponte ou avião.
+Assim como engenheiros civis, mecânicos ou aeronáuticos usam a teoria para construir coisas concretas, engenheiros de software também criam algo real, mesmo que seja mais “intangível”.
 
-A comparação com outras engenharias é interessante. Um erro em engenharia civil ou aeronáutica pode causar acidentes graves — por isso esses campos são super rigorosos. A engenharia de software ainda não chegou nesse nível de exigência, mas precisa evoluir. Afinal, hoje em dia o software está presente em tudo. Por isso, os autores defendem que é hora de encarar a criação de software com mais seriedade e responsabilidade.
+O problema é que, diferente dessas outras engenharias, a engenharia de software ainda não tem práticas tão rígidas e rigorosas. Por exemplo, engenheiros aeronáuticos precisam seguir regras muito estritas porque qualquer erro pode ser grave. Na programação, isso nem sempre aconteceu.
 
-</details>
-
-<details>
-<summary><strong>Atividade 2</strong></summary>
-
-### Comentário do segundo trecho
-
-O segundo trecho amplia essa conversa e traz uma visão bem legal: engenharia de software não é só escrever código — é pensar no tempo, nas mudanças e em como manter o código útil por muito tempo.
-
-Os autores propõem que a engenharia de software é como "programação integrada ao longo do tempo". Ou seja, desde a hora que o código nasce, até ele ser ajustado, mantido ou até aposentado, tudo isso faz parte do trabalho. Isso envolve processos, ferramentas, organização, decisões... tudo pra garantir que o software continue funcionando bem mesmo depois de meses ou anos.
-
-Eles destacam três ideias principais que toda equipe deveria levar em conta:
-
-1. **Tempo e Mudança** – O código precisa mudar com o tempo. E tudo bem, desde que ele esteja preparado pra isso.
-2. **Escala e Crescimento** – À medida que a empresa cresce, o sistema também precisa acompanhar.
-3. **Custos e Compensações** – Nem sempre dá pra fazer tudo. É preciso escolher bem onde investir tempo e esforço.
-
-Esse trecho mostra como pensar além do código e começar a enxergar o software como algo vivo, que evolui. E mais: que o jeito como lidamos com ele faz toda a diferença.
-
-</details>
-<details>
-<summary><strong>Atividade 3</strong></summary>
-
-### De 3 exemplos de trade-off em softwares e explicá-los.
-
-1. Entre otimização de desempenho e consumo de recursos: Muitas vezes é necessário fazer um trade off entre a melhoria no desempenho do programa e o aumento no consumo de recursos do sistema. Por exemplo, aumentar o número de threads em um programa pode melhorar a velocidade de processamento, mas também pode aumentar o uso de memória e CPU.
-
-2. Entre segurança e usabilidade: Implementar medidas de segurança mais rigorosas e manter a facilidade de uso para os usuários. Por exemplo, exigir senhas complexas e autenticação de dois fatores pode aumentar a segurança de um sistema, mas também pode tornar o processo de login mais complicado para os usuários.
-
-3. Entre rapidez no desenvolvimento e qualidade do código: Por vezes, é necessário escolher entre desenvolver um software rapidamente para atender a prazos apertados ou dedicar mais tempo para escrever um código mais limpo e de melhor qualidade. A pressa pode resultar em possíveis bugs e problemas de manutenção no futuro, enquanto a qualidade pode levar mais tempo para ser alcançada.
-</details>
-<details>
-<summary><strong>Atividade 4</strong></summary>
-
-### Classes UML (com exemplo)
-
-A UML é uma forma de representar visualmente o design do sistema. O **diagrama de classes** mostra as classes, seus atributos, métodos e relacionamentos.
-
-#### Exemplo:
-
-Vamos modelar um sistema de vendas:
-
-```
-+----------------+           +----------------+           +----------------+
-|   Produto      |           |   Cliente      |           |    Pedido      |
-+----------------+           +----------------+           +----------------+
-| - nome         |           | - nome         |           | - data         |
-| - preco        |           | - cpf          |           | - total        |
-+----------------+           +----------------+           +----------------+
-| +getPreco()    |           | +comprar()     |           | +adicionar()   |
-+----------------+           +----------------+           +----------------+
-```
-
-Ferramentas recomendadas: [draw.io](https://app.diagrams.net/), [Lucidchart](https://www.lucidchart.com/), StarUML, entre outras.
+Mas como o software está cada vez mais presente na nossa vida, é necessário ter métodos mais confiáveis e rigorosos. Esse livro do Google mostra um caminho para práticas de software mais seguras e eficientes, trazendo uma perspectiva nova que ajuda a complementar o que já existe sobre engenharia de software nos últimos 50 anos.
 
 </details>
 
 <details>
-<summary><strong>Atividade 5</strong></summary>
+<summary><strong> ✅ Atividade 2</strong></summary>
 
-### JAVA (com exemplo)
+### 📄 Comentário do segundo trecho
 
-Baseando-se na UML da Atividade 4, aqui vai a implementação da classe `Produto` em Java:
+Engenharia de software não é só escrever código, mas envolve todas as ferramentas e processos que uma empresa usa para criar e manter esse código ao longo do tempo. A grande questão é: quais práticas ajudam a manter o código valioso e sustentável no longo prazo? E como tornar a disciplina de engenharia de software mais rigorosa? Não existe uma resposta definitiva, mas a experiência do Google ao longo de 20 anos mostra caminhos possíveis.
 
-```java
-public class Produto {
-    private String nome;
-    private double preco;
+Uma ideia principal do livro é pensar engenharia de software como “programação integrada ao longo do tempo”. Ou seja, é preciso criar código que consiga se adaptar às mudanças durante todo o seu ciclo de vida: desde a concepção, passando pelo lançamento, manutenção e até a hora de ser descontinuado.
 
-    public Produto(String nome, double preco) {
-        this.nome = nome;
-        this.preco = preco;
-    }
+O livro destaca três princípios fundamentais que toda organização deve considerar ao projetar, arquitetar e escrever código:
 
-    public double getPreco() {
-        return preco;
-    }
+1. **Tempo e Mudança** - Tempo e Mudança: como o código precisará se adaptar ao longo da sua vida.
 
-    public String getNome() {
-        return nome;
-    }
-}
-```
+2. **Escala e Crescimento** - Escala e Crescimento: como a empresa vai precisar evoluir conforme cresce.
 
-#### Exemplo de uso:
+3. **Custos e Compensações** - Compromissos e Custos: como tomar decisões baseadas no que aprendemos sobre Tempo, Mudança, Escala e Crescimento.
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        Produto p1 = new Produto("Martelo", 29.90);
-        System.out.println("Produto: " + p1.getNome());
-        System.out.println("Preço: R$ " + p1.getPreco());
-    }
-}
-```
+O texto destaca que engenharia de software vai além de apenas escrever código: é sobre enxergar o software como algo vivo, que muda e evolui com o tempo. E que a forma como organizamos, mantemos e planejamos essas mudanças faz toda a diferença na qualidade e na longevidade do que criamos.
 
 </details>
+
+<details>
+<summary><strong> ✅ Atividade 3</strong></summary>
+
+## 🎯 3 exemplos de trade-off em softwares e explicá-los.
+
+### 🔴 Velocidade vs. Manutenção
+
+- **Exemplo:** Um desenvolvedor pode escrever código rápido e funcional para entregar logo, mas ele pode ficar confuso ou difícil de manter depois.
+
+- **Explicação:** Optar por rapidez agora pode aumentar o custo de manutenção no futuro, porque será mais difícil corrigir bugs ou adicionar funcionalidades.
+
+### 🔴 Segurança vs. Usabilidade
+
+- **Exemplo:** Um aplicativo bancário pode exigir autenticação em duas etapas para proteger melhor os usuários, mas isso deixa o acesso mais lento e complicado.
+
+- **Explicação:** Aumentar a segurança pode dificultar a experiência do usuário, então a equipe precisa equilibrar proteção e facilidade de uso.
+
+### 🔴 Performance vs. Consumo de Recursos
+
+- **Exemplo:** Um software pode processar dados muito rapidamente, mas usar muita memória ou CPU.
+
+- **Explicação:** Melhorar a performance pode aumentar o consumo de recursos do sistema, o que pode afetar outros programas ou usuários com máquinas mais fracas.
+</details>
+
