@@ -56,6 +56,7 @@ Como uma organização precisará se adaptar à medida que evolui
 Compensações e Custos
 Como uma organização toma decisões, com base nas lições de Tempo e Mudança e Escala e Crescimento
 </details>
+
 <details>
 <summary><strong> ✅ Atividade 1</strong></summary>
 
@@ -120,12 +121,207 @@ O texto destaca que engenharia de software vai além de apenas escrever código:
 </details>
 
 <details>
-<summary><strong> ✅ Atividade 4</strong></summary> <br>
+<summary><strong> ✅ Atividade 4</strong></summary> 
+
+<p style="margin-left: 40px;">
   
 ## :card_file_box: Diagramas UML das classes Carro e Oficina. ## 
+  
+<details>
+<summary> 📌 Classe Carro </summary>
+
+![image](https://github.com/mirandajhow/Bertoti/blob/db23b0ba130f08091e96b32f929a04053ada9958/engenhariaDeSoftware/carroUml.png)
+</details>
+
+<details>
+<summary> 📌 Classe Oficina</summary> <br>
+
+![Meu diagrama UML](https://raw.githubusercontent.com/mirandajhow/Bertoti/db23b0ba130f08091e96b32f929a04053ada9958/engenhariaDeSoftware/oficinaUML.png)
+
+</details>
+</p>
+</details>
 
 
+<details>
+<summary><strong> ✅ Atividade 5</strong></summary> 
+
+## 💻 Classes em Java. ## 
+
+<details>
+<summary> 📌 Classe Carro</summary> <br>
+
+```java
+package oficina;
+
+public class Carro {
+    private String modelo;
+    private String placa;
+
+    public Carro(String modelo, String placa) {
+        this.modelo = modelo;
+        this.placa = placa;
+    }
+
+    public String getModelo() {
+         return modelo;
+    }
+
+    public void setModelo(String modelo) {
+         this.modelo = modelo;
+    }
+
+    public String getPlaca() {
+         return placa;
+    }
+
+    public void setPlaca(String placa) {
+         this.placa = placa;
+    }
+}
+
+```
+</details>
+
+<details>
+<summary> 📌 Classe Oficina</summary> <br>
+
+```java
+package oficina;
+
+import java.util.List;
+import java.util.LinkedList;
+
+public class Oficina {
+    private List<Carro> carros = new LinkedList<>();
+
+    public void adicionarCarro(Carro carro) {
+        carros.add(carro);
+    }
+
+    public List<Carro> getCarros() {
+        return carros;
+    }
+
+    public List<Carro> buscarCarroModelo(String modelo) {
+        List<Carro> encontrados = new LinkedList<>();
+        for (Carro carro : carros) {
+            if (carro.getModelo().equalsIgnoreCase(modelo)) {
+                encontrados.add(carro);
+            }
+        }
+        return encontrados;
+    }
+
+    public Carro buscarCarroPlaca(String placa) {
+        for (Carro carro : carros) {
+            if (carro.getPlaca().equalsIgnoreCase(placa)) {
+                return carro;
+            }
+        }
+        return null;
+    }
+}
+
+```
+</details>
+
+<details>
+<summary> 📌 Classe Main</summary> <br>
+
+```java
+package oficina;
+
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        Oficina oficina = new Oficina();
+
+        // Criando carros
+        Carro carro1 = new Carro("Civic", "ABC-1234");
+        Carro carro2 = new Carro("Corolla", "XYZ-9876");
+        Carro carro3 = new Carro("Fit", "DEF-5678");
+        Carro carro4 = new Carro("Civic", "GHI-4321");
+
+        // Adicionando carros à oficina
+        oficina.adicionarCarro(carro1);
+        oficina.adicionarCarro(carro2);
+        oficina.adicionarCarro(carro3);
+        oficina.adicionarCarro(carro4);
+
+        // Listando todos os carros
+        System.out.println("Todos os carros na oficina:");
+        for (Carro carro : oficina.getCarros()) {
+            System.out.println(carro.getModelo() + " - " + carro.getPlaca());
+        }
+
+        // Buscando carros por modelo
+        System.out.println("\nCarros modelo Civic:");
+        List<Carro> civics = oficina.buscarCarroModelo("Civic");
+        for (Carro carro : civics) {
+            System.out.println(carro.getModelo() + " - " + carro.getPlaca());
+        }
+
+        // Buscando carro por placa
+        System.out.println("\nBuscando carro com placa XYZ-9876:");
+        Carro encontrado = oficina.buscarCarroPlaca("XYZ-9876");
+        if (encontrado != null) {
+            System.out.println("Encontrado: " + encontrado.getModelo() + " - " + encontrado.getPlaca());
+        } else {
+            System.out.println("Carro não encontrado.");
+        }
+    }
+}
+
+```
+</details>
+
+</details>
+
+<details>
+<summary><strong> ✅ Atividade 6 </strong></summary> 
+
+## 🎯 Testes Automatizados.
+
+```java
+package oficina;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+class Teste {
+    @Test
+    void testAdicionarCarro() {
+        Oficina oficina = new Oficina();
+        oficina.adicionarCarro(new Carro("Civic", "ABC-1234"));
+        assertEquals(1, oficina.getCarros().size());
+    }
+
+    @Test
+    void testBuscarCarroPorPlaca() {
+        Oficina oficina = new Oficina();
+        Carro carro = new Carro("Corolla", "XYZ-9876");
+        oficina.adicionarCarro(carro);
+
+        Carro encontrado = oficina.buscarCarroPlaca("XYZ-9876");
+        assertNotNull(encontrado);
+        assertEquals("Corolla", encontrado.getModelo());
+    }
+}
+```
+
+</details>
+
+<details>
+<summary><strong> ✅ Atividade 7 </strong></summary> 
+
+## :technologist: Integração Java com SQLite.
 
 
 </details>
+
+
+
 
