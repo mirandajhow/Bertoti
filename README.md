@@ -13,7 +13,7 @@ O objetivo é unir teoria e prática através de **exemplos em Java**, **diagram
     - 📚 **Resenhas e análises** do livro *Software Engineering at Google*
     - 📊 **Modelos e exemplos** de diagramas UML
     - 💻 **Projetos e exercícios** em Java
-
+    - 💻 **Testes automatizados** em Java
 
 ## 🎯 Objetivos
 - Consolidar conhecimentos teóricos por meio de **exercícios e projetos práticos**;  
