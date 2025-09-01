@@ -93,26 +93,39 @@ O texto destaca que engenharia de software vai além de apenas escrever código:
 </details>
 
 <details>
-<summary><strong> ✅ Atividade 3</strong></summary>
+<summary><strong> ✅ Atividade 3</strong></summary> <br>
+
+> Trade-offs: Um jogo de perda e ganha - ganho uma coisa e perco outra.
 
 ## 🎯 3 exemplos de trade-off em softwares e explicá-los.
 
 ### 🔴 Velocidade vs. Manutenção
 
-- **Exemplo:** Um desenvolvedor pode escrever código rápido e funcional para entregar logo, mas ele pode ficar confuso ou difícil de manter depois.
+- **Exemplo:** O MongoDB permite maior agilidade no desenvolvimento por não exigir esquemas fixos de dados, o que acelera a criação e evolução de aplicações. No entanto, essa flexibilidade pode dificultar a manutenção a longo prazo, especialmente em projetos grandes.
 
-- **Explicação:** Optar por rapidez agora pode aumentar o custo de manutenção no futuro, porque será mais difícil corrigir bugs ou adicionar funcionalidades.
+- **Explicação:** Priorizando velocidade no início, o sistema pode acabar exigindo mais esforço de manutenção depois. A ausência de estrutura rígida pode gerar inconsistências nos dados e aumentar a complexidade ao escalar ou corrigir problemas.
 
 ### 🔴 Segurança vs. Usabilidade
 
-- **Exemplo:** Um aplicativo bancário pode exigir autenticação em duas etapas para proteger melhor os usuários, mas isso deixa o acesso mais lento e complicado.
+- **Exemplo:** Sistemas Linux oferecem maior controle de permissões e configurações de segurança avançadas, ideais para administradores. Já o Windows opta por uma experiência mais amigável, o que pode significar menos controle direto sobre certas configurações de segurança.
 
-- **Explicação:** Aumentar a segurança pode dificultar a experiência do usuário, então a equipe precisa equilibrar proteção e facilidade de uso.
+- **Explicação:** Quanto mais seguro for o sistema, mais passos e conhecimento técnico ele pode exigir, dificultando o uso por pessoas comuns. Melhorar a usabilidade geralmente envolve simplificar processos — o que pode abrir mão de algumas camadas de segurança.
 
 ### 🔴 Performance vs. Consumo de Recursos
 
-- **Exemplo:** Um software pode processar dados muito rapidamente, mas usar muita memória ou CPU.
+- **Exemplo:** O Google Chrome é altamente otimizado para performance e velocidade de carregamento de páginas, mas consome muita memória RAM. Já o Firefox costuma ser mais leve, mas em alguns casos entrega performance inferior.
 
-- **Explicação:** Melhorar a performance pode aumentar o consumo de recursos do sistema, o que pode afetar outros programas ou usuários com máquinas mais fracas.
+- **Explicação:** Melhorar o desempenho geralmente exige mais uso de CPU e memória. Isso pode ser um problema em computadores com hardware mais limitado, exigindo que o usuário escolha entre velocidade e economia de recursos.
+
+</details>
+
+<details>
+<summary><strong> ✅ Atividade 4</strong></summary> <br>
+  
+## :card_file_box: Diagramas UML das classes Carro e Oficina. ## 
+
+
+
+
 </details>
 
